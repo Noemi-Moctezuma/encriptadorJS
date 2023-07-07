@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta  charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css" integrity="sha512-O03ntXoVqaGUTAeAmvQ2YSzkCvclZEcPQu1eqloPaHfJ5RuNGiS4l+3duaidD801P50J28EHyonCV06CUlTSag==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <body>
+    
+    <main>
+        <div class="logo">
+            <img src="img/Logo@2x.png" alt="Alura logo" id="logo">
+        </div>
+            <div  class="entrada" >
+                <textarea  id="entrada" placeholder="Ingrese el texto aquí" ></textarea>
+            </div>
+            <div class="salida" id="salida">
+                <div class="salida-interna" id = 'salida-interna'required>
+                    <img src="img/Muñeco.png" alt="Cargando...">
+                    <h1>Ningún mensaje fue encontrado</h1>
+                    <p>Ingrese el texto que desee encriptar o desencriptar</p>
+
+                </div>
+            </div>
+            <div class="botones">
+                <div>
+                    <p><iconify-icon icon="zondicons:exclamation-solid"></iconify-icon> Solo letras minúsculas y sin acentos</p>
+                    
+                    <div class="botones-interno">
+                        <button style="--colorf:#FF155B; --colort:white" id="encriptar" >
+                            Encriptar
+                        </button>
+                        <button style="--colorf:#E8D8DA; --colort:#FF145B" id="desencriptar">
+                            Desencriptar
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                
+            </div>
+    </main>
+
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js" integrity="sha512-Zq9o+E00xhhR/7vJ49mxFNJ0KQw1E1TMWkPTxrWcnpfEFDEXgUiwJHIKit93EW/XxE31HSI5GEOW06G6BF1AtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="home.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+</html>
